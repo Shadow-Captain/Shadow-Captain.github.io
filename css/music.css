@@ -1,4 +1,3 @@
-
 * {
 	margin: 0;
 	padding: 0;
@@ -7,6 +6,9 @@
 :root {
 	--color-light: #ebeae6;
 	--album-size: 580px;
+}
+a {
+    color: #0ef;
 }
 html,
 body {
@@ -21,7 +23,7 @@ body {
 	height: 100vh;
 }
 header {
-	width: 100%;
+	width: 80%;
 	padding: 48px 5vw 8px;
 	color: var(--color-light);
 	display: flex;
