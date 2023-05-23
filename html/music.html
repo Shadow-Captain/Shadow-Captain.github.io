@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Music PlayList</title>
+  <link rel="stylesheet" href="../css/music.css">
+  <link rel="shortcut icon" href="../img/ico.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <header>Music Player  <a href="../html/index.html"> Inicio</a></header>
+  <section>
+      <div class="hero-img"></div>
+
+      <div class="emblem-container">
+          <div class="emblem text"></div>
+      </div>
+      <h1 class="text" value="4">
+          <span class="album-num"></span>
+          <span class="album-title"></span><span>Music Plus</span>
+      </h1>
+  </section>
+  <div class="spotify-widget">
+      <iframe src="https://open.spotify.com/embed/track/50W1NGcXufCPfxWBCMnaOu?utm_source=generator" width="100%" height="80" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+  <div class="button-container">
+      <button class="scroll-left nav-arrow"><span></span>Prev</button>
+      <button class="scroll-right nav-arrow">Next<span></span></button>
+  </div>
+
+  <script src="../js/music.js"></script>
+</body>
+</html>
