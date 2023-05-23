@@ -10,40 +10,40 @@ const albumNum = document.querySelector(".album-num");
 const spotifyWidget = document.querySelector(".spotify-widget iframe");
 const albums = [
 	{
-		album: "Phonk",
+		album: "Brutal",
 		emblem: "Life is better with music",
-		"bg-color": ["#0396FF", "#0D1827"],
+		"bg-color": ["#088A3D", "#0D1827"],
 		"accent-color": "#0396FF",
-		url: "https://cdn.shopify.com/s/files/1/0095/3607/7929/articles/Phonk.png?v=1649344034",
+		url: "../img/brutal.jpg",
 		spotify:
-			"https://open.spotify.com/embed/playlist/37i9dQZF1DWWY64wDtewQt?utm_source=generator"
+			"https://open.spotify.com/embed/track/50W1NGcXufCPfxWBCMnaOu?utm_source=generator"
 	},
     {
-		album: "Hardstyle",
+		album: "Bad",
 		emblem: "Life is better with music",
-		"bg-color": ["#3df5a7", "#0D1827"],
+		"bg-color": ["#E80018", "#0D1827"],
 		"accent-color": "#3df5a7",
 		url:
-			"https://i.scdn.co/image/ab67706c0000da840254ac509d005d297811dd00",
+			"../img/bad.jpg",
 		spotify:
-			"https://open.spotify.com/embed/playlist/3bGSAHGYFEDxyEj7uXe0qq?utm_source=generator"
+			"https://open.spotify.com/embed/track/6eIacmhkE82vZlMDnGS7aP?utm_source=generator"
 	},
 	{
-		album: "Electronica",
+		album: "Secrets",
 		emblem: "Life is better with music",
-		"bg-color": ["#727272", "#0D1827"],
+		"bg-color": ["#3F7E9D", "#0D1827"],
 		"accent-color": "#727272",
-		url: "https://www.listenspotify.com/uploaded_files/1452231602.png",
+		url: "../img/secrets.jpg",
 		spotify:
-			"https://open.spotify.com/embed/playlist/6iZlTR5fA4gRAdnkxz8ok4?utm_source=generator"
+			"https://open.spotify.com/embed/track/0NIC4unbe5KZOp1d9T7OaF?utm_source=generator"
 	},
 	{
-		album: "texto",
+		album: "Phonk",
 		emblem: "Life is better with music",
-		"bg-color": ["#f687ff", "#0D1827"],
+		"bg-color": ["#9808E0", "#0D1827"],
 		"accent-color": "#f687ff",
 		url:
-			"",
+			"https://i.scdn.co/image/ab67706f0000000265484dbf534bb6df774e75ee",
 		spotify:
 			"https://open.spotify.com/embed/playlist/37i9dQZF1DWWY64wDtewQt?utm_source=generator"
 	},
