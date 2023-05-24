@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi sitio web</title>
+    <link rel="stylesheet" href="../css/radio.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">T. Stark</a>
+        <nav class="navbar">
+            <a href="../html/index.html" style="--i:1" class="active">Home</a>
+            <a href="../html/music.html" style="--i:2">Music</a>
+            <a href="../html/radio.html" style="--i:3">Radio</a>
+            <a href="#" style="--i:4">Portafolio</a>
+            <a href="#" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <div class="player">
+        <div class="details">
+          <div class="now-playing">JUGANDO x DE y</div>
+          <div class="track-art"></div>
+          <div class="track-name">Nombre de la pista</div>
+          <div class="track-artist">Artista de la pista</div>
+        </div>
+        <div class="buttons">
+          <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
+          <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i></div>
+          <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
+        </div>
+        <div class="slider_container">
+          <div class="current-time">00:00</div>
+          <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+          <div class="total-duration">00:00</div>
+        </div>
+        <div class="slider_container">
+          <i class="fa fa-volume-down"></i>
+          <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+          <i class="fa fa-volume-up"></i>
+        </div>
+    </div>
+
+  <script src="../js/radio.js"></script>
+</body>
+</html>
