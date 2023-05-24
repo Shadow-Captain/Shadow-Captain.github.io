@@ -24,7 +24,7 @@ const albums = [
 		"bg-color": ["#E80018", "#0D1827"],
 		"accent-color": "#3df5a7",
 		url:
-			"../img/bad.jpg",
+			"../img/Bad.jpg",
 		spotify:
 			"https://open.spotify.com/embed/track/6eIacmhkE82vZlMDnGS7aP?utm_source=generator"
 	},
