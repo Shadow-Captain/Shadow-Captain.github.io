@@ -22,18 +22,6 @@ body {
 	width: 100vw;
 	height: 100vh;
 }
-header {
-	width: 80%;
-	padding: 48px 5vw 8px;
-	color: var(--color-light);
-	display: flex;
-	place-content: center;
-	font-size: 24px;
-	z-index: 100;
-	text-transform: uppercase;
-	font-weight: 400;
-	letter-spacing: 1px;
-}
 section {
 	height: 100%;
 	width: 100vw;
