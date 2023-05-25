@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio web</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">T. Stark</a>
+        <nav class="navbar">
+            <a href="../html/index.html" style="--i:1" class="active">Home</a>
+            <a href="../html/music.html" style="--i:2">Music</a>
+            <a href="../html/radio.html" style="--i:3">Radio</a>
+            <a href="#" style="--i:4">Portafolio</a>
+            <a href="../html/contact.html" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <form>
+            <h1>Contact Us Form</h1>
+            <input type="text" id="firstName" placeholder="First Name" required>
+            <input type="text" id="lastName" placeholder="Last Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="mobile" placeholder="Mobile" required>
+            <h4>Type Your Message Here...</h4>
+            <textarea required></textarea>
+            <input type="submit" value="Send" id="button">
+        </form>
+    </div>
+    
+</body>
+</html>
