@@ -1,5 +1,5 @@
 var typed = new Typed(".multiple-text", {
-    strings: ["Happy Hacking", "Web Developer", "Discord :D", "Blogger", "Doxxing", "Chat Online", "Ig MD", "Followme"],
+    strings: ["Happy Hacking", "Web Developer", "Sonrie si te gusta el pito", "Blogger", "Doxxing"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
