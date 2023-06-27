@@ -226,3 +226,42 @@ body {
         transform: translateY(0);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+      padding: 10px 5%;
+    }
+  
+    .logo {
+      opacity: 1;
+    }
+  
+    .navbar a {
+      opacity: 1;
+    }
+  
+    .home {
+      padding-top: 50px;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+  
+    .home-content {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  
+    .home-content h3:nth-of-type(2) {
+      margin-bottom: 20px;
+    }
+  
+    .home-img img {
+      max-width: 100%;
+      margin-right: 0;
+    }
+  
+    .social a {
+      margin: 15px 10px;
+    }
+  }
